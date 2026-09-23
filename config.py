@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()  # .env file se values padhta hai
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8842652402:AAGKluxZKJooeWTVA_n0LjbQXTXMKg0N6v4")
 # Admin IDs comma se alag karke likhte hain, jaise 111,222
-ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip()]
+ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "6237390990").split(",") if x.strip()]
 
 DB_PATH = "earning_bot.db"
 
